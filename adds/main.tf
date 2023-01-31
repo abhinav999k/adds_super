@@ -4,7 +4,7 @@ terraform {
     resource_group_name  = "atfadds"
     storage_account_name = "atfadds"
     container_name       = "tfstate"
-    key                  = "tfstate"
+    key                  = "lol.tfstate"
   }
 
   required_providers {
