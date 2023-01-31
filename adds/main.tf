@@ -24,10 +24,6 @@ provider "azurerm" {
   features {}
 }
 
-provider "azuread" {
-
-}
-
 resource "azuread_application" "example" {
   display_name = "example"
 }
