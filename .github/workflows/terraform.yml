@@ -14,6 +14,7 @@ jobs:
       ARM_CLIENT_SECRET: ${{ secrets.CLIENT_PW }}
       ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
+      TF_WORKING_DIR: './adds'
     runs-on: ubuntu-latest
     environment: production
  
