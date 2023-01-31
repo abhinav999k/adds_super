@@ -14,10 +14,10 @@ terraform {
     }
     azuread = {
       source  = "hashicorp/azuread"
-      version = "2.33.0"
+      version = "2.0.0"
     }
   }
-  required_version = "1.3.7"
+  required_version = "1.3.3"
 }
 
 provider "azurerm" {
